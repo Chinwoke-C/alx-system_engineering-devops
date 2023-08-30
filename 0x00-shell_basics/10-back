@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ "$OLDPWD" = "/var" ] then cd "$PWD" fi
+cd -
