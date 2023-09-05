@@ -1,2 +1,2 @@
 #!/bin/dash
-grep -ni "bin" /etc/passwd | wc -l
+perl -ne 'if (/bin/) { $count++ } END { print "$count\n" }' /etc/passwd
