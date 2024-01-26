@@ -4,4 +4,4 @@
 # Display a user-oriented format
 # Show process hierarchy
 
-ps -a -u 
+ps axu --forest 
